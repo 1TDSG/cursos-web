@@ -1,0 +1,8 @@
+#container{
+
+  background-image: url("../img/img_02_background.png");
+  background-size: contain;
+
+  font-family: "Barlow", "Trebuchet", "Arial", serif;
+
+}
