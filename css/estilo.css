@@ -1,0 +1,63 @@
+#container{
+/*background*/
+  background-image: url("../img/img_01_logoBat.jpg");
+  background-size: 10%;
+  background-repeat: no-repeat;
+  background-position: center;
+
+  /*Estilo fontes*/
+  font-family: "Verdana","Trebuchet", serif;
+
+
+}
+
+.tit-menu{
+  word-spacing: 10px;
+  letter-spacing: 15px;
+  color: #040404;
+  font-family: "Times New Roman", sans-serif;
+
+}
+/*menu principal*/
+/*inline remove os pontinhos de topico*/
+.menu{
+  list-style: none;
+  background-color: black;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+  border-radius: 10px;
+
+  /* o .menu li{ alinha os itens em horizontal*/
+
+}
+.menu li{
+  padding: 10px;
+  display: inline-block;
+  text-decoration: none;
+  text-align: center;
+  font-weight: bolder;
+
+
+
+}
+.menu li a{
+  text-decoration: none;
+  color: yellow;
+  padding: 7px;
+
+}
+
+/*PSEUDOCLASSSE*/
+.menu li a:HOVER{
+  color: yellow;
+  background-color:white;
+
+}
+.menu li a:hover:not(#active){
+  background-color: #111;
+}
+#active{
+  background-color: yellow;
+  float:right;
+}
