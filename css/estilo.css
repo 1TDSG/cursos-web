@@ -1,0 +1,56 @@
+#container{ /*id com #*/
+
+  background-image: url("../img/download.jpg");
+  background-size: 10%;
+   background-repeat: no-repeat;
+   background-position: center;
+
+  font-family: "Verdana","Trebuchet",serif;
+}
+
+.titleMenu{ /*class com . */
+  word-spacing: 10px;
+  letter-spacing: 5px;
+  color: red;
+  font-family: "Times New Roman", sans-serif;
+}
+
+.menu{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+  background-color: darkblue;
+  border-radius: 10px;
+}
+
+.menu li{
+  display: inline-block;
+  padding: 10px;
+
+  font-size: 30px;
+  list-style: none;
+  display: inline;
+
+  left: 10%;
+  margin-left: 1%;
+
+}
+
+.menu li a{
+  text-decoration: none;
+  color: white;
+  padding: 7px;
+}
+
+
+/*PSEUDOCLASSE */
+.menu li a:hover{
+  color: yellow;
+  background:
+}
+
+
+.menu li a:hover:not(#active){
+  color: yellow;
+}

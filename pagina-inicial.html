@@ -4,7 +4,8 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <title>:: INICIO ::</title>
-
+    <link rel="icon" href="img/download.jpg">
+    <link rel="stylesheet" href="css/estilo.css" type="text/css">
     <style>
 
       a{
@@ -16,16 +17,19 @@
   </head>
   <body>
     <div id="container">
-      <h1>Página :: INICIAL ::</h1>
-      <div>
-        <h2>Lista de Cursos</h2>
-        <ul>
+      <nav>
+        <h2 class="titleMenu">Lista de Cursos</h2>
+        <ul class="menu">
           <li><a href="paginas/cursos/java/curso-java.html">Java</a></li>
           <li><a href="paginas/cursos/csharp/curso-csharp.html">C#</a></li>
           <li><a href="paginas/cursos/python/curso-python.html">Python</a></li>
-          <li><a href="paginas/cursos/ruby/curso-ruby.html">Ruby</a></li>
+          <li id="active"><a href="paginas/cursos/ruby/curso-ruby.html">Ruby</a></li>
         </ul>
-      </div>
+      </nav>
+
+
+      <h1>Página :: INICIAL ::</h1>
+
     </div>
   </body>
 </html>
