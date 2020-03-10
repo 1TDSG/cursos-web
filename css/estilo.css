@@ -1,0 +1,59 @@
+#container{
+
+    /* BACKGROUND */
+    background-image: url("../img/batman.jpg");
+    background-size: 10%;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    /* ESTILO FONTES*/
+    font-family: "Verdana","Trebuchet", serif;
+}
+
+.tit-menu{
+  word-spacing: 10px;
+  letter-spacing: 5px;
+  color:#040404;
+  font-family: "Times New Roman", sans-serif;
+
+}
+
+/*MENU PRINCIPAL*/
+
+.menu{
+  list-style: none;
+  padding:0;
+  margin: 0;
+  overflow: hidden;
+  background-color: black;
+  border-radius: 10px;
+}
+.menu li{
+  display: inline-block;
+   padding: 10px;
+   text-decoration: none;
+   text-align: center;
+   font-weight: bolder;
+   color: #fff;
+
+
+}
+.menu li a{
+  text-decoration: none;
+  color: yellow;
+  padding: 7px;
+
+}
+
+/* PSEUDOCLASSE */
+.menu li a:HOVER{
+  color:yellow;
+  background-color:#fff;
+}
+.menu li a:hover:not(#active){
+  background-color: white;
+}
+#active{
+  background-color: yellow;
+  float: right;
+}
