@@ -6,3 +6,34 @@
   font-family: "Barlow", "Trebuchet", "Arial", serif;
 
 }
+
+.titMenu{
+  word-spacing: 10px;
+  letter-spacing: 5px;
+  color: #FF702D;
+}
+
+.menu{
+  align-items: center!important;
+  padding-left: 75%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  display: inline;
+  background-color: #FEDCC8;
+  list-style: none;
+  border-radius: 10px;
+}
+.menu li{
+  padding: 7px;
+  font-size: 30px;
+  list-style: none;
+  display: inline;
+}
+.menu li a{
+  text-decoration: none;
+  color: #ff702d;
+}
+/* PSEDOCLASSE */
+.menu li a:hover{
+  color: #8B002A;
+}
